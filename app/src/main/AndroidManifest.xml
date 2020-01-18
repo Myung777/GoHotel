@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hotel">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Hotel_main" />
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="ojk82t58xs" />
+        <activity android:name=".Home" />
+        <activity android:name=".PopularHotel" />
+        <activity android:name=".Reservation_List" />
+        <activity android:name=".MyPage" />
+        <activity android:name=".PwReset" />
+        <activity android:name=".Like_List" />
+        <activity android:name=".Hotel_Reservation" />
+        <activity android:name=".Hotel_Detail" />
+        <activity android:name=".HotelMap" />
+        <activity android:name=".Hotel_List" />
+        <activity android:name=".Login">
+
+        </activity>
+        <activity android:name=".Register">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
