@@ -4,14 +4,15 @@
  호텔에 대한 리뷰도 작성할 수 있으며 랭킹 시스템을 도입해서 인기 많은 호텔도 알 수 있다.  
 
 # 어플 미리보기
-*호텔 메인페이지
+* 호텔 메인페이지
   
 ![1](https://user-images.githubusercontent.com/60025666/72664414-05094400-3a41-11ea-8f1d-cc4c95eecb50.PNG)
+* 호텔 상세정보
   
-  *호텔 상세정보
 ![2](https://user-images.githubusercontent.com/60025666/72664415-05094400-3a41-11ea-91ef-4ef88de372c7.PNG)
 
-  *호텔리뷰
+* 호텔리뷰
+  
 ![3](https://user-images.githubusercontent.com/60025666/72664416-05094400-3a41-11ea-8050-0772aab4e33f.PNG)
   
 ![4](https://user-images.githubusercontent.com/60025666/72664417-05a1da80-3a41-11ea-97fe-f42d7cfe85ff.PNG)
