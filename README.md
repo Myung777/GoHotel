@@ -5,6 +5,7 @@
 
 # 어플 미리보기
 *호텔 메인페이지
+  
 ![1](https://user-images.githubusercontent.com/60025666/72664414-05094400-3a41-11ea-8f1d-cc4c95eecb50.PNG)
   
   *호텔 상세정보
